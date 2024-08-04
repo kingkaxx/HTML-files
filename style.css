@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
 }
 h1, p{
     color: wheat;
@@ -20,3 +20,128 @@ h1, p{
     /* this is pseudo class */
     color: white;
 }
+
+div{
+    color: white;
+    background-color: pink;
+
+    margin: 40px;
+    padding: 40px;
+    /* display: none; */
+}
+
+#b2{
+    /* visibility: hidden; */
+    
+}
+
+#navbar{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+
+a{
+    margin-right: 100px;
+}
+
+input{
+    margin-left: 400px;
+}
+
+#bd1{
+    border: 10px solid black;
+    border-style: double;
+    font-size: 50px;
+    text-align: center;
+}
+
+#bd1:hover{
+    border: 10px solid black;
+    border-style: dashed;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: blueviolet;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+#box1, #box2, #box3, #box4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: darkcyan;
+    font-size: 50px;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+#box1{
+    position: static;
+    top: 30px;
+}
+#box2{
+    position: relative;
+    top: 40px;
+    right: 150px;
+}
+
+#box3{
+    position:absolute;
+    bottom: 60px;
+    left:10px;
+    
+}
+
+#box4{
+    /* position: fixed;
+    right: 0px; */
+}
+body{
+    /* background-image: url("porsche.jpg");
+    background-position: center; */
+    font-family: time;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#container{
+    margin-top: 300px;
+    padding: 0%;
+    width: 40vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: flex-start;
+    /* align-content:center; */
+
+}
+
+#b1, #b2, #b3, #b4, #b5{
+    margin: 0%;
+    padding: 0%;
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: coral;
+    text-align: center;
+    
+    
+}
+
+#b3{
+    /* align-self: flex-end; */
+    flex-shrink: 2;
+    /* flex-grow: 2; */
+}
+
+
+
+
